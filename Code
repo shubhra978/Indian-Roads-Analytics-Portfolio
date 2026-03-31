@@ -1,0 +1,54 @@
+
+---
+
+## 🔄 Data Pipeline
+### Bronze Layer
+- Raw ingestion of CSV dataset into Databricks.
+- Schema inspection and storage.
+
+### Silver Layer
+- Flatten nested columns.
+- Handle missing values (imputation/drop).
+- Standardize units (km, GB, etc.).
+- Normalize categorical values (road condition, state names).
+
+### Gold Layer
+- Curated KPI tables:
+  - Road length by state/district.
+  - Traffic vs accidents.
+  - Road condition distribution.
+  - Accident rate per 100 km.
+
+---
+
+## 📊 Dashboards
+### Databricks SQL Dashboard
+- KPI cards: accident rate per 100 km.
+- Bar chart: road length by state.
+- Line chart: traffic vs accidents.
+- Pie chart: road condition distribution.
+
+### Power BI
+- Interactive slicers for state/district.
+- Drill-down into traffic vs accident trends.
+- KPI cards for road length and accident rates.
+
+### Tableau
+- Heatmaps of accident density.
+- Trend lines for traffic vs accidents.
+- Storytelling dashboard combining multiple visuals.
+
+---
+
+## 📈 Key Insights
+- States with highest accident rates per 100 km.
+- Distribution of road conditions across India.
+- Correlation between traffic volume and accident counts.
+- Districts with longest road networks.
+
+---
+
+## 🚀 How to Reproduce
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/Indian-Roads-Analytics-Portfolio.git
