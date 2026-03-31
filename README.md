@@ -22,3 +22,18 @@ The project showcases:
 ---
 
 ## 📂 Repository Structure
+
+📂 Indian-Roads-Analytics-Portfolio
+┣ 📂 datasets
+┃ ┗ indian_roads_raw.csv
+┣ 📂 notebooks
+┃ ┣ Bronze ingestion and silver cleaning.ipynb
+┣ 📂 dashboards
+┃ ┣ databricks_dashboard_screenshots/
+┃ ┣ powerbi_dashboard.pbix
+┃ ┗ tableau_dashboard.twbx
+┣ 📂 gold_queries
+┃ ┗ gold_queries.sql
+┣ 📂 docs
+┃ ┗ project_report.md
+┣ README.md
